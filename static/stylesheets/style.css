@@ -1,0 +1,99 @@
+
+body {
+	background-color: gray;
+}
+
+h1 {
+	text-align: center;
+	color: white ;
+	background-size:100% 100%;
+
+
+
+}
+
+
+
+
+
+
+
+h2:hover, p:hover , ol :hover , a:hover{
+	color : red ;
+	
+}
+
+a {
+	text-align: black ;
+}
+
+.center{ 
+	 text-align: center;
+	/*border:black solid 10px; */
+}
+
+.makecentered{
+	margin: auto;
+	width : 200px ;
+}
+
+.right {
+	text-align: right;
+	border-radius: 50%;
+	background-image:url("home/wecode/Desktop/20106403_10154944702170889_7685104861508943702_n.jpg");
+
+
+
+
+
+}
+
+.centered{
+	text-align: center;
+	width:500px;
+	height:auto; 
+	/*	border-radius: 50%;*/
+	border:black solid 10px;
+	background-image:url("home/wecode/Desktop/20106403_10154944702170889_7685104861508943702_n.jpg");
+	background-size:100% 100%;
+
+}
+
+.space{
+	margin: 20px;
+
+
+}
+
+li{
+	display:inline;
+
+
+	padding:20px 20px;
+
+	font-size:20px;
+
+
+
+}
+.nav_bar li:hover{
+	color:white;
+	background-color:black;
+	border:white;
+
+
+}
+
+.nav_bar{
+	border:black solid 10px;
+	width:850px;
+
+
+
+
+
+}
+li a{
+	text-decoration:none;
+
+	}0
