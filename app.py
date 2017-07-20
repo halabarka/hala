@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 import random
 app = Flask(__name__)
 
@@ -36,6 +36,21 @@ def about():
 def hla():
 	return render_template("index.html")
 
+
+@app.route("/contact")
+def contact():
+	return  render_template("contact.html")
+
+@app.route("/form_request",methods=['POST'])
+def form_request():
+	user_firstname=request.form["firstname"]
+	
+	user_lastname=request.form["lastname"]
+	
+	user_message=request.form["message"]
+
+	#return 	  user_firstname+" "+user_lastname+" "+user_message
+	return render_template("from_data.html",firstname=user_firstname,lastname=user_lastname,message=user_message)
 
 if __name__ == "__main__":
 	app.run()
