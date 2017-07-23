@@ -1,6 +1,6 @@
 
 body {
-	background-color: gray;
+	background-color: #f44265;
 }
 
 h1 {
@@ -15,10 +15,14 @@ h1 {
 
 
 
+p{
+
+	text-align:left;
+
+}
 
 
-
-h2:hover, p:hover , ol :hover , a:hover{
+h2:hover, p :hover , ol :hover , a:hover{
 	color : red ;
 	
 }
@@ -35,6 +39,8 @@ a {
 .makecentered{
 	margin: auto;
 	width : 200px ;
+	border-radius:20px;
+	margin:20px;
 }
 
 .right {

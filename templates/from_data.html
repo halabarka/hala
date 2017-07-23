@@ -1,13 +1,22 @@
 {%extends "layout.html"%}
- 	
+ 
+
+
 {%block head%}
 <link rel="stylesheet" type="text/css" href="../static/stylesheets/style2.css">
 {%endblock%}
 	{%block body%}
+	<h2> information </h2>
+	<p> first name:{{firstname}} </p>
+	<p> last name:{{lastname}}</p> <br>
+	<p>  message :{{message}}</p> <br>
 
-	<h1> first name:{{firstname}} </h1>
-	</h2> last name:{{lastname}}</h2> <br>
-	</h3>  message :{{message}}</h3> <br>
+<div>
+<div class="center">	 
+ 
+	<img src= "../static/images/hala.jpg" height= "500px" width = "500px"/>
+</div>
+
 	 
  	
 	{%endblock%}

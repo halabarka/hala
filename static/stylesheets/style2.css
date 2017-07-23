@@ -1,5 +1,5 @@
  body {
-	background-color:gray;
+	background-color: #f44265;
 }
 h1 {
 	text-align: center;
@@ -10,8 +10,16 @@ h1 {
 
 }
 
+
+.center{
+	text-align:center;
+	border-radius: 50%;
+	background-image:url("home/wecode/Desktop/20106403_10154944702170889_7685104861508943702_n.jpg");
+
+
+}
 p {
-	text-align: right;
+	text-align: left;
 	color: white ;
 	background-size:100% 100%;
 
